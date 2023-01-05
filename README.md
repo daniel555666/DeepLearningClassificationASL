@@ -1,8 +1,8 @@
 # Classification of American Sign Language: Assignment 3
 
 
-Yehudit Brickner, 
-Yaakov Khodorkovski, 
+Yehudit Brickner <br>
+Yaakov Khodorkovski <br>
 Daniel Zaken
 
 ![image5](https://user-images.githubusercontent.com/92545994/210875264-083a914b-ba22-4522-99b8-30722b34c8de.png)
@@ -48,15 +48,17 @@ We decided to use a CNN for the second part of this assignment because it works 
 
 
 ![image1](https://user-images.githubusercontent.com/92545994/210875511-d7a1e5c0-a117-42c7-b9d0-b946bc04b595.png)
-
+ <br>
 ##
+ <br>
+  <br>
 Confusion Matrix
 
 ![image2](https://user-images.githubusercontent.com/92545994/210875494-2d4f2d60-f294-433e-a34f-18a9e324efe1.png)
 
 
 
-
+ <br>
 Accuracy score: (TP + TN) / (TP + TN + FP + FN).A high accuracy score means that the model is making a large proportion of correct predictions.
 
 Precision score: TP / (TP + FP).A high precision score means that the model is not making many false positive predictions.
