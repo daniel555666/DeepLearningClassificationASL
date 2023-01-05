@@ -34,7 +34,7 @@ For each of the above neural networks, we tried changing the respective paramete
 
 
 
-For the second part, we used a Convolution Neural Network to classify the data. Again we tried playing with the parameters, we tried adding different convolutional layers with different-sized kernels, and different padding to the kernel. We tried changing where we have max pooling layers. We played with the learning rate, number of epochs, and batch size.
+**For the second part,** we used a Convolution Neural Network to classify the data. Again we tried playing with the parameters, we tried adding different convolutional layers with different-sized kernels, and different padding to the kernel. We tried changing where we have max pooling layers. We played with the learning rate, number of epochs, and batch size.
 
 This model has 3 convolutional layers with a kernel of size 5x5. The activation is ReLu.
 The first convolutional layer has 8 kernels, and everyone after has double the amount of the one before. After each convolutional layer we have a max pooling layer of 2x2. After the last max pooling layer, we used a flatten layer to get a vector. We then did 3 fully connected layers.
@@ -44,7 +44,7 @@ We ran this model for 30 epochs with a batch size of 10 and a learning rate of 0
 
 We decided to use a CNN for the second part of this assignment because it works well with images. The reason it works well with Images is that it takes into consideration each pixel and its surrounding to try and find bigger features like edges, corners, and more. Together it can find small features and slowly connect them together to bigger features.
 
-## With this model we got 98.7% accuracy
+**With this model we got 98.7% accuracy**
 
 
 ![image1](https://user-images.githubusercontent.com/92545994/210875511-d7a1e5c0-a117-42c7-b9d0-b946bc04b595.png)
