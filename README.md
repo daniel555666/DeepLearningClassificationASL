@@ -1,8 +1,8 @@
 # Classification of American Sign Language: Assignment 3
 
 
-Yehudit Brickner
-Yaakov Khodorkovski
+Yehudit Brickner, 
+Yaakov Khodorkovski, 
 Daniel Zaken
 
 ![image5](https://user-images.githubusercontent.com/92545994/210875264-083a914b-ba22-4522-99b8-30722b34c8de.png)
