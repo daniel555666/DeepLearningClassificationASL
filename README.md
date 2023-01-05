@@ -1,12 +1,11 @@
-Classification of American Sign Language: Assignment 3
+# Classification of American Sign Language: Assignment 3
 
 
 Yehudit Brickner
-
 Yaakov Khodorkovski
-
 Daniel Zaken
 
+![image5](https://user-images.githubusercontent.com/92545994/210875264-083a914b-ba22-4522-99b8-30722b34c8de.png)
 
 Our project is classifying asl (American sign language) letters. The data set can be found here: https://www.kaggle.com/datasets/grassknoted/asl-alphabet .
 In this dataset, there are 78,000 images in 26 classes: A-Z. (3000 images for each class)
@@ -27,7 +26,9 @@ For the first part of the project, we created a simple multi-layer perceptron (M
 For each of the above neural networks, we tried changing the respective parameters of the model: learning rate, epochs, with/without mini-batches, and the size of the layers, until we found a network that gave us good validation results.
 
 
+![image6](https://user-images.githubusercontent.com/92545994/210875438-123a09b8-ce40-451c-928c-3bf710d6dc76.png)
 
+![image4](https://user-images.githubusercontent.com/92545994/210875459-ceab00f3-f4fa-422e-aa38-8182b2b29148.png)
 
 
 
@@ -43,13 +44,15 @@ We ran this model for 30 epochs with a batch size of 10 and a learning rate of 0
 
 We decided to use a CNN for the second part of this assignment because it works well with images. The reason it works well with Images is that it takes into consideration each pixel and its surrounding to try and find bigger features like edges, corners, and more. Together it can find small features and slowly connect them together to bigger features.
 
-With this model we got 98.7% accuracy
+## With this model we got 98.7% accuracy
 
 
+![image1](https://user-images.githubusercontent.com/92545994/210875511-d7a1e5c0-a117-42c7-b9d0-b946bc04b595.png)
 
 
 Confusion Matrix
 
+![image2](https://user-images.githubusercontent.com/92545994/210875494-2d4f2d60-f294-433e-a34f-18a9e324efe1.png)
 
 
 
@@ -64,3 +67,4 @@ F1 score: It is calculated as 2 * (precision * recall) / (precision + recall). A
 
 Because our data is multiclassed we used weighted average to calculate these scores.
 
+![image3](https://user-images.githubusercontent.com/92545994/210875332-b3a055ee-f207-4a8b-a3fe-64278d9bbeeb.png)
