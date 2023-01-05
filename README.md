@@ -56,9 +56,8 @@ We decided to use a CNN for the second part of this assignment because it works 
 Confusion Matrix
  <br>
  
-![image2](https://user-images.githubusercontent.com/92545994/210875494-2d4f2d60-f294-433e-a34f-18a9e324efe1.png)
 
-
+![image2](https://user-images.githubusercontent.com/92545994/210877431-a6180624-e3b5-4c65-8d16-eeb3242558a6.png)
 
  <br>
 Accuracy score: (TP + TN) / (TP + TN + FP + FN).A high accuracy score means that the model is making a large proportion of correct predictions.
