@@ -33,7 +33,9 @@ For each of the above neural networks, we tried changing the respective paramete
 
 
  <br>
+ 
  ##
+ 
  <br>
 
 **For the second part,** we used a Convolution Neural Network to classify the data. Again we tried playing with the parameters, we tried adding different convolutional layers with different-sized kernels, and different padding to the kernel. We tried changing where we have max pooling layers. We played with the learning rate, number of epochs, and batch size.
